@@ -1,0 +1,16 @@
+<resources>
+    <string name="app_name">PerruTinder</string>
+
+    <!-- Strings related to login -->
+    <string name="prompt_email">Email</string>
+    <string name="prompt_password">Password</string>
+    <string name="action_sign_in">Acceder o registrar</string>
+    <string name="action_sign_in_short">Entrar</string>
+    <string name="error_invalid_email">Este correo es invalido</string>
+    <string name="error_invalid_password">La Contraseña es muy corta</string>
+    <string name="error_incorrect_password">Password Incorrecto</string>
+    <string name="error_field_required">This field is required</string>
+    <string name="permission_rationale">"Contacts permissions are needed for providing email
+        completions."
+    </string>
+</resources>

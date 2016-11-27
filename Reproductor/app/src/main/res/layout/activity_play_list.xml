@@ -1,0 +1,70 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/activity_play_list"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:paddingBottom="@dimen/activity_vertical_margin"
+    android:paddingLeft="@dimen/activity_horizontal_margin"
+    android:paddingRight="@dimen/activity_horizontal_margin"
+    android:paddingTop="@dimen/activity_vertical_margin"
+    tools:context="com.example.carmelo.reproductor.PlayList">
+
+    <SeekBar
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/seekBar"
+        android:layout_marginBottom="70dp"
+        android:layout_alignParentBottom="true"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true" />
+
+    <Button
+        android:text="II"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/btnpause"
+        android:minWidth="50dip"
+        android:layout_alignParentBottom="true"
+        android:layout_centerHorizontal="true" />
+
+    <Button
+        android:text="Play"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/btnplay"
+        android:minWidth="50dip"
+        android:layout_alignParentBottom="true"
+        android:layout_toLeftOf="@+id/btnpause"
+        android:layout_toStartOf="@+id/btnpause" />
+
+    <Button
+        android:text="Stop"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/btnstop"
+        android:minWidth="50dip"
+        android:layout_alignParentBottom="true"
+        android:layout_toEndOf="@+id/btnpause"
+        android:layout_toRightOf="@+id/btnpause" />
+
+    <Button
+        android:text="Ant"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignTop="@+id/btnplay"
+        android:layout_toLeftOf="@+id/btnplay"
+        android:layout_toStartOf="@+id/btnplay"
+        android:id="@+id/btnback"
+        android:minWidth="60dip" />
+
+    <Button
+        android:text="Sig"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignTop="@+id/btnstop"
+        android:layout_toRightOf="@+id/btnstop"
+        android:layout_toEndOf="@+id/btnstop"
+        android:id="@+id/btnnext"
+        android:minWidth="60dip" />
+</RelativeLayout>
